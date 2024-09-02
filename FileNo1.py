@@ -15,4 +15,13 @@ Holidays = {
     "New Year’s Eve" : (12,-1,31,31)
 }
 
-print(Holidays)
+#print(Holidays)
+
+import pandas as pd
+
+df = pd.DataFrame(Holidays)
+
+print(df)
+
+
+
