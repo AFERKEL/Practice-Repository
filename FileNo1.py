@@ -21,7 +21,13 @@ import pandas as pd
 
 df = pd.DataFrame(Holidays)
 
-print(df)
+#print(df)
+
+#show the shape of the data
+df.info()
+df.shape
+df.columns
+df.head()
 
 
 
